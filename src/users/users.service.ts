@@ -17,7 +17,7 @@ export class UsersService {
 
     }
 
-    public getUsers(): User {
+    public getUsers(): User[] {
 
     }
 
