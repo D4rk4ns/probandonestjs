@@ -9,7 +9,12 @@ import { DeleteUserInput } from './dto/input/delete-user.input';
 
 @Injectable()   //Nos permite importar providers en el servicio
 export class UsersService {
-    private users: User[] = [];
+    private users: User[] = [{
+        email: "jonathanlsr@nauta.cu",
+        password: "123456789",
+        age: 25,
+        userId: "123"
+    }];
 
     public createUser(createUserData: CreateUserInput): User {
         const user: User = {
