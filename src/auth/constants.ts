@@ -1,0 +1,1 @@
+export const jwtSecret = 'somsuperlongsecret'; //Esto se cambiara ya que no es una buena practica
